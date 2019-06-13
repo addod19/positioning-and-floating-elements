@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 2100px;
+    width: 100%;
+}
+nav {
+    display: grid;
+    background: white;
+}
+.center-div {
+    display: grid;
+    justify-content: center;
+}
+.center-div > .nav-title {
+    margin-top: -30px;
+}
+.left-div {
+    display: grid;
+    justify-content: left;
+    margin-top: -30px;
+    grid-template-columns: 50px 50px 200px;
+    grid-gap: 10px;
+    margin-left: 10px;
+}
+.left-div > .space-cosmos, .sicon, .trip {
+    margin-top: -10px;
+}
+.nav-title:hover, .sicon:hover, .trip:hover {
+    cursor: pointer;
+}
+.left-div > img > .space-cosmos:hover {
+    text-decoration: underline;
+}
+.right-div {
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+.right-div > .subscribe {
+    height: 30px;
+    width: auto;
+    color: white;
+    background: black;
+    margin-top: 10px;
+    width: 130px;
+}
+.right-div > .login {
+    height: 30px;
+    width: 50px;
+    background: blue;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 70px;
+}
+.right-div > button a {
+    text-decoration: none;
+    color: white;
+}
+.header-img-desc {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 70%;
+    grid-gap: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+.header {
+    display: grid;
+    grid-template
+}
+.main-img {
+    width: 100%;
+    height: 550px;
+}
+.wrap {
+    display: grid;
+    grid-template-columns: auto;
+    background: red;
+    height: 600px;
+}
+.inflation {
+    height: 400px;
+    width: 100%;
+    background: blue;
+}
+footer {
+    width: 100%;
+    height: 350px;
+    background: gray;
+}
