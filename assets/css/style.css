@@ -72,7 +72,10 @@ nav {
 }
 .header {
     display: grid;
-    grid-template
+}
+.col6 {
+    border-left: 1px solid black;
+    height: 340px;
 }
 .main-img {
     width: 100%;
@@ -93,14 +96,24 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
-    width: 100%;
+    width: 90%;
     height: 350px;
-    background: gray;
+    background: white;
+    margin: 30px;
 }
 footer > div {
     margin: 10px;
     height: 250px;
-    width: 180px;
+    width: 100px;
     background: white;
     align-items: center;
+}
+.news-list, .opinions-list, .arts-list, .living-list, .more-list, .subscribe-list {
+    list-style: none;
+    font-size: 16px;
+    margin-left: -30px;
+}
+.news-list:hover, .opinions-list:hover, .arts-list:hover, .living-list:hover, .more-list:hover, .subscribe-list:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
