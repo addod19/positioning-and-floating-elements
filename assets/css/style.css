@@ -90,7 +90,17 @@ nav {
     background: blue;
 }
 footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
     width: 100%;
     height: 350px;
     background: gray;
+}
+footer > div {
+    margin: 10px;
+    height: 250px;
+    width: 180px;
+    background: white;
+    align-items: center;
 }
