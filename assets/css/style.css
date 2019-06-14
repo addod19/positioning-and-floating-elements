@@ -4,7 +4,7 @@ body {
     height: 2100px;
     width: 100%;
 }
-nav {
+header {
     display: grid;
     background: white;
 }
@@ -191,7 +191,7 @@ nav {
     margin-top: 1px;
     padding-top: .5em;
     color: black;
- }
+}
 
  [href="NY Logo"] {
     grid-column: 1/ span 2;
@@ -263,7 +263,6 @@ nav ul a {
 nav ul a:hover {
     text-decoration: underline black;
 }
-
 .itemZ {
     margin-top: 1em;
     padding-left: .5em;
@@ -277,8 +276,6 @@ footer {
   min-height: 5em;
   margin-top: 1em;
 }
-
-
 
 footer a {
     margin: .35em;
