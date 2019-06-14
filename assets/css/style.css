@@ -180,27 +180,114 @@ hr.short-black {
     color: grey;
     margin-top: -8px;
 }
-footer {
+
+
+nav {
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
-    grid-gap: 10px;
-    width: 90%;
-    height: 350px;
-    background: white;
-    margin: 30px;
-    font-family: Arial, sans-serif;
-    font-size: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 1210px;
+    margin: 0 auto;
+    border-top: 1px solid #b9b9b9;
+    margin-top: 1px;
+    padding-top: .5em;
+    color: black;
+ }
+
+ [href="NY Logo"] {
+    grid-column: 1/ span 2;
 }
 
-footer ul > li {
-    margin-top: 5px;
+[href="Go to Home Page"] {
+    grid-column: 6;
+    justify-self: right;
+    align-self: center;
+    font-size: .8em;
+    color: rgb(98,136,165);
 }
-footer > div {
-    margin: 10px;
-    height: 250px;
-    width: 100px;
-    background: white;
-    align-items: center;
+
+[class="showTitle hideTitle"],
+[class="showTitle-a hideTitle-a"] {
+    font-size: .8em;
+    color: #353434;
+    font-weight: bold;
+}
+
+.itemZ:last-of-type {
+    border-left: 1px solid #b9b9b9;
+}
+
+[href="Home Delivery"],
+[href="Digital Subscriptions"],
+[href="Crossword"],
+[href="Cooking"] {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+[href="Email Newsletters"],
+[href="Corporate Subscriptions"],
+[href="Education Rate"],
+[href="Mobile Applications"],
+[href="Replica Edition"] {
+    font-size: .8em;
+}
+
+.hideTitle-a {
+    display: none;
+}
+
+.itemZ hr {
+    color: white;
+}
+
+nav ul {
+    display: grid;
+    grid-gap: .6em;
+    padding-top: 1em;
+    font-size: .9em;
+}
+
+nav ul>li {
+    list-style-type: none;
+    margin-left: -40px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul a:hover {
+    text-decoration: underline black;
+}
+
+.itemZ {
+    margin-top: 1em;
+    padding-left: .5em;
+    border-bottom: 1px solid #b9b9b9;
+    padding-bottom: 1em;
+}
+
+footer {
+    max-width: 900px;
+   margin: 0 auto;
+  min-height: 5em;
+  margin-top: 1em;
+}
+
+
+
+footer a {
+    margin: .35em;
+    font-size: .75em;
+    color: #777777;
+}
+
+footer a:hover {
+    text-decoration: underline #777777;
 }
 .news-list, .opinions-list, .arts-list, .living-list, .more-list, .subscribe-list {
     list-style: none;
