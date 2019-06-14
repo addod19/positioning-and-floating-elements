@@ -54,6 +54,7 @@ header {
     border: 1px solid #4d7b9f;
     margin-top: 10px;
     width: 130px;
+    font-size: 11px;
     font-weight: 600;
     text-transform: uppercase
 }
