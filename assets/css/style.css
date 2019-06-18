@@ -239,11 +239,11 @@ hr.short-black {
     color: black;
 }
 
- [href="NY Logo"] {
+ [title="NY Logo"] {
     grid-column: 1/ span 2;
 }
 
-[href="Go to Home Page"] {
+[title="Go to Home Page"] {
     grid-column: 6;
     justify-self: right;
     align-self: center;
@@ -262,19 +262,19 @@ hr.short-black {
     border-left: 1px solid #b9b9b9;
 }
 
-[href="Home Delivery"],
-[href="Digital Subscriptions"],
-[href="Crossword"],
-[href="Cooking"] {
+[title="Home Delivery"],
+[title="Digital Subscriptions"],
+[title="Crossword"],
+[title="Cooking"] {
     font-weight: bold;
     font-size: 1.2em;
 }
 
-[href="Email Newsletters"],
-[href="Corporate Subscriptions"],
-[href="Education Rate"],
-[href="Mobile Applications"],
-[href="Replica Edition"] {
+[title="Email Newsletters"],
+[title="Corporate Subscriptions"],
+[title="Education Rate"],
+[title="Mobile Applications"],
+[title="Replica Edition"] {
     font-size: .8em;
 }
 
@@ -361,9 +361,9 @@ hr.short-black {
 
 footer {
     max-width: 900px;
-   margin: 0 auto;
-  min-height: 5em;
-  margin-top: 1em;
+    margin: 0 auto;
+    min-height: 5em;
+    margin-top: 1em;
 }
 
 footer a {
