@@ -180,11 +180,11 @@ span > .href-login {
 .inflation__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 2px;
     padding: 10px;
 }
 .inflation__grid--item {
-    padding: 5px;
+    padding: 0px;
 }
 .editor-header {
     font-size: 15px;
@@ -357,6 +357,7 @@ hr.short-black {
     color: white;
     background: black;
 }
+
 .hunPer {
     width: 100%;
 }
