@@ -1,51 +1,37 @@
 body {
     margin: 0;
     padding: 0;
-    height: 2100px;
+    height:auto;
     width: 100%;
+    padding-top: 70px;
 }
-header {
-    display: grid;
+nav {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    height: 70px;
     background: white;
+    position: fixed;
+    top: 0px;
+    box-shadow: 1px 1px 1px 1px rgb(240, 240, 240);
+    z-index: 1;
 }
-.center-div {
-    display: grid;
-    justify-content: center;
-}
-.center-div > .nav-title {
-    margin-top: -30px;
-}
-.left-div {
-    display: grid;
-    justify-content: left;
-    margin-top: -30px;
-    grid-template-columns: 50px 50px 200px;
-    grid-gap: 10px;
-    margin-left: 10px;
-}
-.left-div > .space-cosmos, .sicon, .trip {
-    margin-top: -10px;
-}
-.nav-title:hover, .sicon:hover, .trip:hover {
-    cursor: pointer;
-}
-.left-div > img > .space-cosmos:hover {
-    text-decoration: underline;
-}
-.right-div {
-    display: grid;
-    justify-content: end;
-    align-content: center;
-    align-items: center;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
+.NYTlogo {
+    position: absolute;
+    transform: translate(297px, 9px);
+    height: 30px;
+    width: 75px;
+    left: 270px;
+    top: 5px;
 }
 .desc {
     color: grey;
     margin-top: -5px;
 }
-.right-div > .subscribe {
-    height: 35px;
+.subscribe {
+    position: absolute;
+    height: 20px;
+    left: 1050px;
     padding: 10px;
     border-radius: 5px;
     width: auto;
@@ -53,13 +39,57 @@ header {
     background: #4d7b9f;
     border: 1px solid #4d7b9f;
     margin-top: 10px;
-    width: 130px;
+
     font-size: 11px;
     font-weight: 600;
     text-transform: uppercase
 }
-.right-div > .login {
-    height: 35px;
+.subscribe:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: .7;
+}
+.sicon {
+    position: absolute;
+    height: 30px;
+    left: 100px;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.sicon:hover {
+    cursor: pointer;
+}
+.bars {
+    position: absolute;
+    height: 30px;
+    left: 40px;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 16px;
+}
+.bars:hover {
+    cursor: pointer;
+}
+.space-cosmos {
+    position: absolute;
+    height: 30px;
+    left: 150px;
+    padding: 10px;
+    width: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.space-cosmos:hover {
+    cursor: pointer;
+}
+.login {
+    position: absolute;
+    height: 22px;
+    left: 1200px;
     padding: 10px;
     width: auto;
     border-radius: 5px;
@@ -70,7 +100,22 @@ header {
     margin-top: 10px;
     margin-right: 30px;
     font-weight: 600;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.login:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    opacity: .7;
+}
+span > .href-login {
+    text-decoration: none;
+    color: white;
+}
+.subscribe > .href-subscribe {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
 }
 .right-div > button a {
     text-decoration: none;
@@ -183,7 +228,7 @@ hr.short-black {
 }
 
 
-nav {
+.before-footer {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     max-width: 1210px;
@@ -241,14 +286,14 @@ nav {
     color: white;
 }
 
-nav ul {
+.before-footer ul {
     display: grid;
     grid-gap: .6em;
     padding-top: 1em;
     font-size: .9em;
 }
 
-nav ul>li {
+.before-footer ul>li {
     list-style-type: none;
     margin-left: -40px;
     padding: 0;
@@ -256,12 +301,12 @@ nav ul>li {
     color: black;
 }
 
-nav ul a {
+.before-footer ul a {
     text-decoration: none;
     color: black;
 }
 
-nav ul a:hover {
+.before-footer ul a:hover {
     text-decoration: underline black;
 }
 .itemZ {
@@ -269,6 +314,49 @@ nav ul a:hover {
     padding-left: .5em;
     border-bottom: 1px solid #b9b9b9;
     padding-bottom: 1em;
+}
+.others {
+    display: flex;
+    right: 100px;
+    height: 60px;
+    background: white;
+}
+.fa-facebook {
+    position: absolute;
+    left: 900px;
+    border-radius: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    height: 25px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    background: black;
+}
+.fa-twitter {
+    position: absolute;
+    left: 800px;
+    font-size: 20px;
+    height: 25px;
+    width: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    background: black;
+}
+.share {
+    position: absolute;
+    left: 700px;
+    font-size: 20px;
+    text-align: center;
+    height: 25px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    background: black;
+}
+.hunPer {
+    width: 100%;
 }
 
 footer {
