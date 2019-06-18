@@ -238,7 +238,9 @@ hr.short-black {
     padding-top: .5em;
     color: black;
 }
-
+.br {
+    height: 30px;
+}
  [title="NY Logo"] {
     grid-column: 1/ span 2;
 }
@@ -361,9 +363,9 @@ hr.short-black {
 
 footer {
     max-width: 900px;
-    margin: 0 auto;
-    min-height: 5em;
-    margin-top: 1em;
+   margin: 0 auto;
+  min-height: 5em;
+  margin-top: 1em;
 }
 
 footer a {
