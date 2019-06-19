@@ -5,7 +5,7 @@ body {
     width: 100%;
     padding-top: 70px;
 }
-nav {
+.nav {
     display: flex;
     align-items: flex-start;
     width: 100%;
@@ -391,7 +391,7 @@ hr.short-black {
 }
 .fa-facebook {
     position: absolute;
-    left: 900px;
+    left: 870px;
     border-radius: 30px;
     font-size: 20px;
     border-radius: 50%;
@@ -401,7 +401,12 @@ hr.short-black {
     color: white;
     background: black;
 }
-.fa-twitter {
+.so-icons {
+    position: absolute;
+    right: 400px;
+    top: 870px;
+}
+.twit {
     position: absolute;
     left: 800px;
     font-size: 20px;
@@ -414,7 +419,7 @@ hr.short-black {
 }
 .share {
     position: absolute;
-    left: 700px;
+    left: 730px;
     font-size: 20px;
     text-align: center;
     height: 25px;
@@ -423,25 +428,35 @@ hr.short-black {
     color: white;
     background: black;
 }
-
+#envelope {
+    position: absolute;
+    right: 370px;
+    font-size: 20px;
+    text-align: center;
+    height: 25px;
+    width: 40px;
+    border-radius: 50%;
+    color: white;
+    background: black;
+}
 .hunPer {
     width: 100%;
 }
 
-footer {
+.footer {
     max-width: 900px;
-   margin: 0 auto;
-  min-height: 5em;
-  margin-top: 1em;
+    margin: 0 auto;
+    min-height: 5em;
+    margin-top: 1em;
 }
 
-footer a {
+.footer a {
     margin: .35em;
     font-size: .75em;
     color: #777777;
 }
 
-footer a:hover {
+.footer a:hover {
     text-decoration: underline #777777;
 }
 .news-list, .opinions-list, .arts-list, .living-list, .more-list, .subscribe-list {
